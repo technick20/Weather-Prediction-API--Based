@@ -1,0 +1,17 @@
+<%- include('partials/header'); -%>
+
+<form action="/" method="POST"  class="form" autocomplete="off">
+    <div class="form-group text-center">
+        <h1 class="h1" style="font-family: 'Leckerli One', cursive;">
+            Weather Predicition
+        </h1>
+        <label for="cityInput">ENTER THE CITY NAME </label>
+        <br>
+        <input id="cityInput" type="text" name="cityName" >
+    </div>
+      <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary mt-2" name="submit" >GO</button>
+      </div>
+  </form>
+
+<%- include('partials/footer'); -%>
